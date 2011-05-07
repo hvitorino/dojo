@@ -1,0 +1,4 @@
+﻿- cadastrar trechos
+- pesquisar/listar trechos disponíveis
+- vender passagem
+	- verificar se há passagem disponível para o trecho
