@@ -1,0 +1,8 @@
+D:\Git\dojo\fontes\mohviagem.teste\obj\Debug\ResolveAssemblyReference.cache
+D:\Git\dojo\fontes\mohviagem.teste\bin\Debug\mohviagem.teste.dll
+D:\Git\dojo\fontes\mohviagem.teste\bin\Debug\mohviagem.teste.pdb
+D:\Git\dojo\fontes\mohviagem.teste\bin\Debug\mohviagem.dll
+D:\Git\dojo\fontes\mohviagem.teste\bin\Debug\nunit.framework.dll
+D:\Git\dojo\fontes\mohviagem.teste\bin\Debug\mohviagem.pdb
+D:\Git\dojo\fontes\mohviagem.teste\obj\Debug\mohviagem.teste.dll
+D:\Git\dojo\fontes\mohviagem.teste\obj\Debug\mohviagem.teste.pdb

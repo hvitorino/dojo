@@ -1,0 +1,5 @@
+D:\Git\dojo\fontes\mohviagem\bin\Debug\mohviagem.dll
+D:\Git\dojo\fontes\mohviagem\bin\Debug\mohviagem.pdb
+D:\Git\dojo\fontes\mohviagem\obj\Debug\ResolveAssemblyReference.cache
+D:\Git\dojo\fontes\mohviagem\obj\Debug\mohviagem.dll
+D:\Git\dojo\fontes\mohviagem\obj\Debug\mohviagem.pdb
