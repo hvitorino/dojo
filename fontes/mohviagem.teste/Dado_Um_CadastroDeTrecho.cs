@@ -18,8 +18,8 @@ namespace mohviagem.teste
 			var todosOsTrechos = new CadastroDeTrechos();
 
 			var trecho = Trecho.Novo()
-							.PartindoDe("fortaleza")
-							.IndoPara("juazeiro do norte")
+							.ComOrigemEm("fortaleza")
+							.ComDestinoA("juazeiro do norte")
 							.ComPreco(70m);
 
 			todosOsTrechos.adiciona(trecho);

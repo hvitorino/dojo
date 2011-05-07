@@ -12,14 +12,14 @@ namespace mohviagem
 			return new Trecho();
 		}
 
-		public Trecho PartindoDe(string origem)
+		public Trecho ComOrigemEm(string origem)
 		{
 			this.Origem = origem;
 
 			return this;
 		}
 
-		public Trecho IndoPara(string destino)
+		public Trecho ComDestinoA(string destino)
 		{
 			this.Destino = destino;
 

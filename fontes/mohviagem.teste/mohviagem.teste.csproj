@@ -45,7 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dado_Uma_CadastroDeViagem.cs" />
+    <Compile Include="Dado_Uma_Viagem.cs" />
     <Compile Include="Dado_Um_CadastroDeTrecho.cs" />
+    <Compile Include="Dado_Um_ServicoDeVendaDePassagem.cs" />
     <Compile Include="Dado_Um_Trecho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

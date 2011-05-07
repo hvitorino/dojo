@@ -19,12 +19,12 @@ namespace mohviagem.teste
 			cadastroDeViagens = new CadastroDeViagens();
 			
 			var fortalezaJuazeiro = Trecho.Novo()
-							.PartindoDe("fortaleza")
-							.IndoPara("juazeiro do norte");
+							.ComOrigemEm("fortaleza")
+							.ComDestinoA("juazeiro do norte");
 			
 			var fortalezaCaninde = Trecho.Novo()
-							.PartindoDe("fortaleza")
-							.IndoPara("Canindé");
+							.ComOrigemEm("fortaleza")
+							.ComDestinoA("Canindé");
 
 			cadastroDeViagens.adiciona(
 				Viagem.Nova(fortalezaJuazeiro)
@@ -50,7 +50,6 @@ namespace mohviagem.teste
 				Viagem.Nova(fortalezaCaninde)
 							.SaindoAs(new DateTime(2011, 05, 08, 09, 00, 00))
 							.ChegandoAs(new DateTime(2011, 05, 08, 18, 00, 00)));
-
 		}
 
 		[TestCase]
@@ -60,8 +59,8 @@ namespace mohviagem.teste
 			var cadastroDeViagens = new CadastroDeViagens();
 
 			var trecho = Trecho.Novo()
-							.PartindoDe("fortaleza")
-							.IndoPara("juazeiro do norte");
+							.ComOrigemEm("fortaleza")
+							.ComDestinoA("juazeiro do norte");
 
 			var viagem = Viagem.Nova(trecho)
 							.SaindoAs(new DateTime(2011, 05, 08, 09, 00, 00))
@@ -80,8 +79,8 @@ namespace mohviagem.teste
 			var partindoEm = new DateTime(2011, 05, 07);
 
 			var trecho = Trecho.Novo()
-							.PartindoDe(cidadeOrigem)
-							.IndoPara(cidadeDestino);
+							.ComOrigemEm(cidadeOrigem)
+							.ComDestinoA(cidadeDestino);
 
 			var juazeiroFortaleza = Viagem.Nova(trecho)
 							.SaindoAs(new DateTime(2011, 05, 08, 09, 00, 00))
@@ -91,7 +90,5 @@ namespace mohviagem.teste
 
 			Assert.True(viagensDisponiveis.Select(a => a.Trecho).Contains(trecho));
 		}
-
-		
 	}
 }

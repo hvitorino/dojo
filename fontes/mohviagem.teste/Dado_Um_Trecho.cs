@@ -12,11 +12,11 @@ namespace mohviagem.teste
 		[TestCase]
 		public void Sao_Iguais_Se_Origem_E_Destino_Forem_Iguais()
 		{
-			var primeiro = Trecho.Novo().IndoPara("juazeiro")
-				.PartindoDe("fortaleza");
+			var primeiro = Trecho.Novo().ComDestinoA("juazeiro")
+				.ComOrigemEm("fortaleza");
 
-			var segundo = Trecho.Novo().IndoPara("juazeiro")
-				.PartindoDe("fortaleza");
+			var segundo = Trecho.Novo().ComDestinoA("juazeiro")
+				.ComOrigemEm("fortaleza");
 
 			Assert.True(primeiro.Equals(segundo));
 		}
@@ -24,11 +24,11 @@ namespace mohviagem.teste
 		[TestCase]
 		public void Deve_Ter_O_Mesmo_Hashcode_Se_Comparado_A_Outro_Igual()
 		{
-			var primeiro = Trecho.Novo().IndoPara("juazeiro")
-				.PartindoDe("fortaleza");
+			var primeiro = Trecho.Novo().ComDestinoA("juazeiro")
+				.ComOrigemEm("fortaleza");
 
-			var segundo = Trecho.Novo().IndoPara("juazeiro")
-				.PartindoDe("fortaleza");
+			var segundo = Trecho.Novo().ComDestinoA("juazeiro")
+				.ComOrigemEm("fortaleza");
 
 			Assert.AreEqual(primeiro.GetHashCode(), segundo.GetHashCode());
 		}
